@@ -3,15 +3,30 @@
 public class Main {
     public static void main(String[] args)
     {
-        Book b = new Book("Herman Melville", "Moby Dick", "1503280780", true);
+        //Book a = new Book("Herman Melville", "Moby Dick", "1503888078023");
         //Getters
-        b.getAuthor();
-        b.getTitle();
-        b.getISBN();
-        b.isOnLoan();
+        //System.out.println(b.getAuthor());
+        //System.out.println(b.getTitle());
+        //System.out.println(b.getISBN());
+        //System.out.println(b.isOnLoan());
 
         //Set onLoan
-        //b.setOnLoan();
+        //b.setOnLoan(true);
+       // System.out.println(b.isOnLoan());
+
+        // toString
+        //System.out.println(a.toString());
+
+        //b.verifyISBN();
+
+        //Add Book
+        Library l = new Library("LRC Bangor");
+
+        l.addBook("Herman Melville", "Moby Dick", "1503888078023");
+        l.addBook("Charles Dickens", "A Tale of Two Cities", "1234567891234");
+        l.addBook("Antoine de Saint-Exupéry", "The Little Prince", "4321987654321");
+        l.listAllBooks();
+
 
 
     }
