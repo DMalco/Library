@@ -20,13 +20,16 @@ public class Main {
         //b.verifyISBN();
 
         //Add Book
-        Library l = new Library("LRC Bangor");
+        //Library lib = new Library("LRC Bangor");
 
-        l.addBook("Herman Melville", "Moby Dick", "1503888078023");
-        l.addBook("Charles Dickens", "A Tale of Two Cities", "1234567891234");
-        l.addBook("Antoine de Saint-Exupéry", "The Little Prince", "4321987654321");
-        l.listAllBooks();
+        //lib.addBook("Herman Melville", "Moby Dick", "1503888078023");
+        //lib.addBook("Charles Dickens", "A Tale of Two Cities", "1234567891234");
+        //lib.addBook("Antoine de Saint-Exupéry", "The Little Prince", "4321987654321");
+        //lib.listAllBooks();
 
+
+        UserInterface ui = new UserInterface();
+        ui.showMainMenu();;
 
 
     }
